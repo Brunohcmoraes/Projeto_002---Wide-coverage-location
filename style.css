@@ -1,0 +1,153 @@
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    }
+
+header{margin:47px 0px 0px 42px;}
+
+.header-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor:pointer;
+}
+
+.congratulation {
+
+    width: 595.18px;
+    height: 500px;
+    margin-top: 163px;
+    margin-left: 121px;
+    display: inline-block;
+   
+}
+
+.sign-Up {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    border-width: 1px;
+    color: #FFFFFF;
+    border: none;
+    width: 124px;
+    height: 51px;
+    cursor:pointer;
+
+}
+
+div {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    width: 493px;
+    
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    width: 493px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.learn {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+
+}
+
+@media screen and (max-width: 500px){
+  
+    .header-header
+    {
+        display: none;
+    }
+
+    .sign-Up{
+        display: block;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 1px;
+        width: 61px;
+        height: 18px;
+        margin: 17px 0px 0px 284px;
+    }
+
+    h1{
+       
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+        color: #161A49;
+        width: 278px;
+        height: 60px;
+        text-align: center;     
+        margin-top: 124px;
+                
+    }
+    p{
+        
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        color:#4B505A;
+        width: 304px;
+        height: 165px;
+        text-align: center;
+    
+    }
+
+    .learn{
+        display:contents;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 1px;
+        color:#6FBF44;
+        text-align: center;
+        
+
+    }
+
+    .congratulation{
+        
+        width: 312px;
+        height: 288px;
+        position: absolute;
+        margin-top: 490px;
+        margin-left: 39px;
+        margin-right: 39px;
+  
+    }
+}
